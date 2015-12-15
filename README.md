@@ -16,6 +16,10 @@ Make code as simple and readable as it is just possible.
 ---------------------------
 Create mars rover implementation based on existing RoverSpec.
 
+4. Crowded field
+----------------
+In this kata you need to change code to make Field support big fields and lots of objects.
+
 Refactor hints
 --------------
 
@@ -26,5 +30,5 @@ Bad smells to avoid:
 * Duplicate code blocks
 * Train crushes ( getScene().getFigure(figureId).getSkeleton().removeComponent("head")
 * Methods with too many arguments
-* Uncliear exception handling
+* Unclear exception handling
 * JDK utils underused
